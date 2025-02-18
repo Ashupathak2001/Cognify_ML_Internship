@@ -1,0 +1,7 @@
+snscrape
+textblob
+pandas
+scikit-learn
+streamlit
+matplotlib
+numpy

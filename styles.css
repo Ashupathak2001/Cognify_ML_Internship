@@ -1,0 +1,99 @@
+/* Global Styles */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --card-background: #ffffff;
+}
+
+/* App Header Styling */
+.app-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.app-header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+.app-header .subtitle {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.2em;
+}
+
+/* Section Headers */
+.section-header {
+    font-size: 1.5em;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+/* Metric Cards */
+.metric-card {
+    background-color: var(--card-background);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.metric-card:hover {
+    transform: scale(1.05);
+}
+
+.metric-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.metric-value {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+.metric-subtitle {
+    color: #777;
+    font-size: 0.9em;
+}
+
+/* Sidebar Styling */
+.css-1aumxhk {
+    background-color: var(--background-color);
+}
+
+/* Streamlit Button Styling */
+.stButton>button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .app-header h1 {
+        font-size: 2em;
+    }
+    
+    .metric-card {
+        margin-bottom: 15px;
+    }
+}
